@@ -1,0 +1,6 @@
+artifact_location: file:///workspaces/mlops-bike/mlruns/581846226084025135
+creation_time: 1711607599729
+experiment_id: '581846226084025135'
+last_update_time: 1711607599729
+lifecycle_stage: active
+name: new_experiment

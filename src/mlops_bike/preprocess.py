@@ -16,6 +16,7 @@ CAT_FEATURES = [
 # 2. 층수는 실제 층수를 추출하되 숫자가 아닌 Basement 등은 0층으로 표기함
 # 3. 범주형 변수(CAT_FEATURES)는 타겟 인코딩 적용 (from category_encoders import TargetEncoder)
 preprocess_pipeline = ColumnTransformer(
+    transformers=[],
     remainder="passthrough",
     verbose_feature_names_out=False,
 )

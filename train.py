@@ -10,15 +10,20 @@ import numpy as np
 import pandas as pd
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.pipeline import Pipeline
-from src.common.constants import ARTIFACT_PATH, DATA_PATH, LOG_FILEPATH
-from src.common.logger import (
+
+from src.mlops_bike.common.constants import (
+    ARTIFACT_PATH,
+    DATA_PATH,
+    LOG_FILEPATH,
+)
+from src.mlops_bike.common.logger import (
     handle_exception,
     log_feature_importance,
     set_logger,
 )
-from src.common.metrics import rmse_cv_score
-from src.common.utils import get_param_set
-from src.preprocess import preprocess_pipeline
+from src.mlops_bike.common.metrics import rmse_cv_score
+from src.mlops_bike.common.utils import get_param_set
+from src.mlops_bike.preprocess import preprocess_pipeline
 
 # 로그 들어갈 위치
 # TODO: 로그를 정해진 로그 경로에 logs.log로 저장하도록 설정

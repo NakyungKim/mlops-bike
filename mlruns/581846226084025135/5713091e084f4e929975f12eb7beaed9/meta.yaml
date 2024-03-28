@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-bike/mlruns/581846226084025135/5713091e084f4e929975f12eb7beaed9/artifacts
+end_time: 1711607684588
+entry_point_name: ''
+experiment_id: '581846226084025135'
+lifecycle_stage: active
+run_id: 5713091e084f4e929975f12eb7beaed9
+run_name: Run 28
+run_uuid: 5713091e084f4e929975f12eb7beaed9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711607681246
+status: 3
+tags: []
+user_id: codespace
